@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AsyncTaskWSImagem</string>
+    <string name="acessar_ws">Acessar WS</string>
+    <string name="imagem_de_logo_do_ifsp">Imagem de Logo do IFSP</string>
+</resources>

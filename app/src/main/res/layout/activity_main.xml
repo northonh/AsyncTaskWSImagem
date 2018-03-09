@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ifspsaocarlos.sdm.asynctaskwsimagem.MainActivity">
+
+    <!-- Botão que dá acesso ao WS -->
+    <Button
+        android:id="@+id/bt_acessar_ws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="acessarWs"
+        android:text="@string/acessar_ws"/>
+
+    <!-- ImageView preenchido com o resultado do WS -->
+    <ImageView
+        android:id="@+id/iv_imagem"
+        android:contentDescription="@string/imagem_de_logo_do_ifsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
